@@ -1,0 +1,55 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+#vertical_navbar {
+  display: initial;
+  float:right;
+  font-size: 50px;
+      width:auto;
+      height:auto;   
+    }
+    #logo_navbar{
+      display: block;
+      border-radius: 25px;
+      margin: auto;
+      width:100%;
+      max-width: 70%;    
+    }
+    #btn_Resgistro{
+      display: block;
+      border-radius: 25px;
+      margin: auto;
+      width:100%;
+      max-width: 70%;  
+    }
+    .inicio {
+      display: initial;
+  float:left;
+  font-size: 50px;
+      width:auto;
+      height:auto; 
+
+    }
+    .presentacion {
+      width:auto;
+      height:auto; 
+
+      padding: 30px;
+      margin: 20px;
+      background-color:burlywood;
+    }
+    body {
+      height:665px;
+      background-color: chocolate;
+      background-size: 10rem;
+      
+    }
+    #registro{
+      background-color: blue;
+    }
+   td{
+    font-family:fantasy;
+    color:black;
+   }
