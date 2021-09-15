@@ -33,12 +33,14 @@ div#equipo{
 div#proyec{
     width: 340px;
     height: 200px;
+    
 }
 
 img#logo_navbar{    
-    width: 300px;
-    height: 400px; 
-    border-radius: 80%; 
+    width: 90px;
+    height: 90px; 
+    border-radius: 60%; 
+    
       
   }
   div#formulario{
@@ -46,9 +48,23 @@ img#logo_navbar{
     margin-left: 50px;    
     width: 680px;
     height: 200px;
+}
+
+    nav#vertical_navbar{
+        width: 300px;
+        height: 400px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      .item_image {          
+        width: 40px;
+        height: 40px; 
+      }
     
 
-  }
+  
   h1{
       text-align: center;
       color: blueviolet;
