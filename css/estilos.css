@@ -1,0 +1,113 @@
+body{
+  margin:  0px;
+  padding:  0px;
+}
+
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font: Lato; font-family: 'Lato';font-size: 20px;
+}
+
+#contenedor_principal{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  align-content: stretch;
+
+}
+
+#header{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+#contenedor_secundario{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  text-align: justify-all;
+  align-items: center;
+  align-content: stretch;
+  background-color: salmon;
+  font: Lato; font-family: 'Lato';font-size: 20px;
+
+}
+
+#items {
+  display: flex;
+}
+
+.item{
+  padding: 30px;
+  text-align: center;
+}
+
+.item_image {
+  width: 20%;
+}
+
+#imagen{
+  margin: auto;
+  display: block;
+}
+
+#vertical_navbar{
+  width: 15%;
+  background-color: #211d7b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+#btn_Registro{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#header_tittle{
+  font-family: Arial, Helvetica, Sans-serif;
+  color: rgb(12, 12, 12);
+  font-size: 25px;
+}
+
+#header_tittle{
+  font-family: Arial, Helvetica, Sans-serif;
+  color: rgb(42, 10, 223);
+  font-size: 25px;
+}
+
+.item_tittle{
+  font-family: Arial, Helvetica;
+  color: rgb(12, 12, 12);
+  font-size: 15px;
+
+}
+
+.item_description{
+  font-family: Arial, Helvetica;
+  color: rgb(12, 12, 12);
+  font-size: 12px;
+
+}
