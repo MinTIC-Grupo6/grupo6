@@ -2,33 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" href="estilos.css" rel="stylesheet">
     <title>Registro Usuarios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="./estilos.css" rel="stylesheet">
 </head>
-<body >
-    <form action="#" method="post" id="from_registrarse">
-    <table>
-        <tr>
-            <td>NOMBRE</td>
-            <td><input type="text" id="in_nombre_usuario" ></td>
-        </tr>
-        <tr>
-            <td>CONTRASEÑA</td>
-            <td><input type="password" id="in_contraseña"></td>
-            
-        </tr>
-        <tr>
-            <td>CONFIRMAR CONTRASEÑA</td>
-            <td><input type="password"  id="in_confirmar_contraseña"></td>
-        </tr>
-                      
-        <tr>
-            <td><button><id="btn_registrar_usuario"><a id="link_Registro" href="#">Registrarse</a></button></td>
-            <td><button><id="btn_Atras"><a id="link_Registro" href="index.html">Volver</a></button></td>
-        </tr>
-        
+<body>
+    <div id="contenedor_secundario">
+        <form action="#" method="post" id="form_registrarse">
+        <table>
+            <tr>
+                <td>NOMBRE</td>
+                <td><input type="text" id="in_nombre_usuario" ></td>
+            </tr>
+            <tr>
+                <td>CONTRASEÑA</td>
+                <td><input type="password" id="in_contrasena"></td>
+                
+            </tr>
+            <tr>
+                <td>CONFIRMAR CONTRASEÑA</td>
+                <td><input type="password"  id="in_confirmar_contrasena"></td>
+            </tr>
+                          
+            <tr>
+                <td><button><id="btn_registrar_usuario"><a id="btn_registrar_usuario" href="#">Registrarse</a></button></td>
+                <td><button><id="btn_Atras"><a id="link_Registro" href="index.html">Volver</a></button></td>
+            </tr>
+        </div>
+        <div id="item_logo">
+            <img id="logo_registro" src="./logomision.png" alt=""  style="">
+        </div>
     </table>
     </form>
 </body>

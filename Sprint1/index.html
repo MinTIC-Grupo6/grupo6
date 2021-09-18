@@ -2,38 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" href="estilos.css" rel="stylesheet">
-    <title>Pagina Web</title>
+    <title>Pagina Juan Ortega</title>
+    <link type="text/css" href="./estilos.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <section>
-      <div class="inicio">
-        <div class="presentacion">
-            <p>Equipo</p>
-            <p>JUAN</p>
-            <p>PEDRO</p>
-
-
+    <div id="root">
+        <div id="contenedor_principal">
+            <div id="header">
+                <h3 id="header_tittle">Texto 1 aca.</h3>
+                <p id="header_description">descripcion del texto 1 aca</p>
+            </div>
+            <div id="items">
+                <div class="item">
+                    <img src="./logomision.png"alt="" class="item_image">
+                    <h4 class="item_tittle">Texto izquierda</h4>
+                    <p class="item_description">mucho texto pero a la izquierda</p>
+                </div>
+                <div class="item">
+                    <img src="./logomision.png"alt="" class="item_image">
+                    <h4 class="item_tittle">Texto derecha</h4>
+                    <p class="item_description">mucho texto pero a la derecha</p>
+                </div>
+            </div>
         </div>
-        <div class="presentacion">
-           <p>Proyecto</p> 
-           <p>Primer sprint</p> 
-        
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <nav id="vertical_navbar">   
-         <img id="logo_navbar">
-            <button id="btn_Resgistro"><a id="link_Registro" href="registro.html">Registrarse</a></button>              
-         
-             
-          
-      </nav>
+        <nav id="vertical_navbar">
+            <img id="logo_navbar" src="./logomision.png" alt=""  style="">
+            <button id="btn_Registro">
+                <a id="link_Registro" href="registro.html">Registrarse</a>
+            </button>
+        </nav>
     </div>
-
-   
 </body>
 </html>
