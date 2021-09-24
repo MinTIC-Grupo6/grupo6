@@ -23,7 +23,7 @@ body{
 }
 
 #contenedor_secundario{
-  width: 100%;
+  width: 98%;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
@@ -75,5 +75,13 @@ body{
 }
 
 #btn_Registro{
+  font: Lato; font-family: 'Lato'; font-size: 20px;
+  background-color: lightgreen;
+  padding: 10px;
+}
 
+#pie_pagina{
+  text-align: center;
+  color: yellowgreen;
+  background: blue;
 }
