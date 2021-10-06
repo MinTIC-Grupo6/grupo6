@@ -1,0 +1,10 @@
+CREATE DATABASE db_proyecto DEFAULT CHARACTER SET utf8;
+USE db_proyecto;
+
+CREATE TABLE usuarios (
+	id INT NOT NULL AUTO_INCREMENT,
+	usuario VARCHAR(256) NOT NULL,
+	contrasena VARCHAR(256) NOT NULL,
+	fecha_registro INT DEFAULT 2021,
+	PRIMARY KEY (id)
+);
